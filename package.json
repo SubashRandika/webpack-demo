@@ -5,7 +5,8 @@
 	"description": "Webpack setup demo application",
 	"main": "index.js",
 	"scripts": {
-		"start": "webpack --config webpack.config.js"
+		"start": "webpack serve --config webpack.dev.js --open --port 3000",
+		"build": "webpack --config webpack.prod.js"
 	},
 	"keywords": [],
 	"author": "",
@@ -18,6 +19,8 @@
 		"sass-loader": "^12.1.0",
 		"style-loader": "^3.1.0",
 		"webpack": "^5.45.1",
-		"webpack-cli": "^4.7.2"
+		"webpack-cli": "^4.7.2",
+		"webpack-dev-server": "^3.11.2",
+		"webpack-merge": "^5.8.0"
 	}
 }
