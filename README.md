@@ -4,5 +4,5 @@ This is a source repository learn through some most important Webpack 5 features
 
 References:
 
-https://www.youtube.com/watch?v=MpGLUVbqoYQ
-https://github.com/Colt/webpack-demo-app
+- https://www.youtube.com/watch?v=MpGLUVbqoYQ
+- https://github.com/Colt/webpack-demo-app
